@@ -17,7 +17,9 @@
 		8BAD89F6170EC4EB00678CA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD89F5170EC4EB00678CA5 /* Default@2x.png */; };
 		8BAD89F8170EC4EB00678CA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD89F7170EC4EB00678CA5 /* Default-568h@2x.png */; };
 		8BAD89FB170EC4EB00678CA5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD89F9170EC4EB00678CA5 /* MainStoryboard.storyboard */; };
-		8BAD89FE170EC4EB00678CA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD89FD170EC4EB00678CA5 /* ViewController.m */; };
+		8BAD8A08170EC63900678CA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD8A07170EC63800678CA5 /* QuartzCore.framework */; };
+		8BAD8A15170EC86200678CA5 /* LevelPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD8A12170EC86200678CA5 /* LevelPage.m */; };
+		8BAD8A16170EC86200678CA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD8A14170EC86200678CA5 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +37,11 @@
 		8BAD89F5170EC4EB00678CA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8BAD89F7170EC4EB00678CA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8BAD89FA170EC4EB00678CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8BAD89FC170EC4EB00678CA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8BAD89FD170EC4EB00678CA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BAD8A07170EC63800678CA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8BAD8A11170EC86200678CA5 /* LevelPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelPage.h; sourceTree = "<group>"; };
+		8BAD8A12170EC86200678CA5 /* LevelPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelPage.m; sourceTree = "<group>"; };
+		8BAD8A13170EC86200678CA5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BAD8A14170EC86200678CA5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BAD8A08170EC63900678CA5 /* QuartzCore.framework in Frameworks */,
 				8BAD89E2170EC4EB00678CA5 /* UIKit.framework in Frameworks */,
 				8BAD89E4170EC4EB00678CA5 /* Foundation.framework in Frameworks */,
 				8BAD89E6170EC4EB00678CA5 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,7 @@
 		8BAD89D2170EC4EB00678CA5 = {
 			isa = PBXGroup;
 			children = (
+				8BAD8A07170EC63800678CA5 /* QuartzCore.framework */,
 				8BAD89E7170EC4EB00678CA5 /* PeepingPages */,
 				8BAD89E0170EC4EB00678CA5 /* Frameworks */,
 				8BAD89DE170EC4EB00678CA5 /* Products */,
@@ -86,8 +93,10 @@
 				8BAD89F0170EC4EB00678CA5 /* AppDelegate.h */,
 				8BAD89F1170EC4EB00678CA5 /* AppDelegate.m */,
 				8BAD89F9170EC4EB00678CA5 /* MainStoryboard.storyboard */,
-				8BAD89FC170EC4EB00678CA5 /* ViewController.h */,
-				8BAD89FD170EC4EB00678CA5 /* ViewController.m */,
+				8BAD8A11170EC86200678CA5 /* LevelPage.h */,
+				8BAD8A12170EC86200678CA5 /* LevelPage.m */,
+				8BAD8A13170EC86200678CA5 /* ViewController.h */,
+				8BAD8A14170EC86200678CA5 /* ViewController.m */,
 				8BAD89E8170EC4EB00678CA5 /* Supporting Files */,
 			);
 			path = PeepingPages;
@@ -175,7 +184,8 @@
 			files = (
 				8BAD89EE170EC4EB00678CA5 /* main.m in Sources */,
 				8BAD89F2170EC4EB00678CA5 /* AppDelegate.m in Sources */,
-				8BAD89FE170EC4EB00678CA5 /* ViewController.m in Sources */,
+				8BAD8A15170EC86200678CA5 /* LevelPage.m in Sources */,
+				8BAD8A16170EC86200678CA5 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
