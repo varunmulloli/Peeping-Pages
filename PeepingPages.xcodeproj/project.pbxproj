@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BAD89E2170EC4EB00678CA5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD89E1170EC4EB00678CA5 /* UIKit.framework */; };
+		8BAD89E4170EC4EB00678CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD89E3170EC4EB00678CA5 /* Foundation.framework */; };
+		8BAD89E6170EC4EB00678CA5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BAD89E5170EC4EB00678CA5 /* CoreGraphics.framework */; };
+		8BAD89EC170EC4EB00678CA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD89EA170EC4EB00678CA5 /* InfoPlist.strings */; };
+		8BAD89EE170EC4EB00678CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD89ED170EC4EB00678CA5 /* main.m */; };
+		8BAD89F2170EC4EB00678CA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD89F1170EC4EB00678CA5 /* AppDelegate.m */; };
+		8BAD89F4170EC4EB00678CA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD89F3170EC4EB00678CA5 /* Default.png */; };
+		8BAD89F6170EC4EB00678CA5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD89F5170EC4EB00678CA5 /* Default@2x.png */; };
+		8BAD89F8170EC4EB00678CA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD89F7170EC4EB00678CA5 /* Default-568h@2x.png */; };
+		8BAD89FB170EC4EB00678CA5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD89F9170EC4EB00678CA5 /* MainStoryboard.storyboard */; };
+		8BAD89FE170EC4EB00678CA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAD89FD170EC4EB00678CA5 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BAD89DD170EC4EB00678CA5 /* PeepingPages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeepingPages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAD89E1170EC4EB00678CA5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BAD89E3170EC4EB00678CA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BAD89E5170EC4EB00678CA5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BAD89E9170EC4EB00678CA5 /* PeepingPages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeepingPages-Info.plist"; sourceTree = "<group>"; };
+		8BAD89EB170EC4EB00678CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BAD89ED170EC4EB00678CA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BAD89EF170EC4EB00678CA5 /* PeepingPages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeepingPages-Prefix.pch"; sourceTree = "<group>"; };
+		8BAD89F0170EC4EB00678CA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BAD89F1170EC4EB00678CA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BAD89F3170EC4EB00678CA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BAD89F5170EC4EB00678CA5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BAD89F7170EC4EB00678CA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BAD89FA170EC4EB00678CA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8BAD89FC170EC4EB00678CA5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BAD89FD170EC4EB00678CA5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BAD89DA170EC4EB00678CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD89E2170EC4EB00678CA5 /* UIKit.framework in Frameworks */,
+				8BAD89E4170EC4EB00678CA5 /* Foundation.framework in Frameworks */,
+				8BAD89E6170EC4EB00678CA5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAD89D2170EC4EB00678CA5 = {
+			isa = PBXGroup;
+			children = (
+				8BAD89E7170EC4EB00678CA5 /* PeepingPages */,
+				8BAD89E0170EC4EB00678CA5 /* Frameworks */,
+				8BAD89DE170EC4EB00678CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BAD89DE170EC4EB00678CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD89DD170EC4EB00678CA5 /* PeepingPages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BAD89E0170EC4EB00678CA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD89E1170EC4EB00678CA5 /* UIKit.framework */,
+				8BAD89E3170EC4EB00678CA5 /* Foundation.framework */,
+				8BAD89E5170EC4EB00678CA5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BAD89E7170EC4EB00678CA5 /* PeepingPages */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD89F0170EC4EB00678CA5 /* AppDelegate.h */,
+				8BAD89F1170EC4EB00678CA5 /* AppDelegate.m */,
+				8BAD89F9170EC4EB00678CA5 /* MainStoryboard.storyboard */,
+				8BAD89FC170EC4EB00678CA5 /* ViewController.h */,
+				8BAD89FD170EC4EB00678CA5 /* ViewController.m */,
+				8BAD89E8170EC4EB00678CA5 /* Supporting Files */,
+			);
+			path = PeepingPages;
+			sourceTree = "<group>";
+		};
+		8BAD89E8170EC4EB00678CA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD89E9170EC4EB00678CA5 /* PeepingPages-Info.plist */,
+				8BAD89EA170EC4EB00678CA5 /* InfoPlist.strings */,
+				8BAD89ED170EC4EB00678CA5 /* main.m */,
+				8BAD89EF170EC4EB00678CA5 /* PeepingPages-Prefix.pch */,
+				8BAD89F3170EC4EB00678CA5 /* Default.png */,
+				8BAD89F5170EC4EB00678CA5 /* Default@2x.png */,
+				8BAD89F7170EC4EB00678CA5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BAD89DC170EC4EB00678CA5 /* PeepingPages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAD8A01170EC4EB00678CA5 /* Build configuration list for PBXNativeTarget "PeepingPages" */;
+			buildPhases = (
+				8BAD89D9170EC4EB00678CA5 /* Sources */,
+				8BAD89DA170EC4EB00678CA5 /* Frameworks */,
+				8BAD89DB170EC4EB00678CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeepingPages;
+			productName = PeepingPages;
+			productReference = 8BAD89DD170EC4EB00678CA5 /* PeepingPages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BAD89D4170EC4EB00678CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Varun Mulloli";
+			};
+			buildConfigurationList = 8BAD89D7170EC4EB00678CA5 /* Build configuration list for PBXProject "PeepingPages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BAD89D2170EC4EB00678CA5;
+			productRefGroup = 8BAD89DE170EC4EB00678CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BAD89DC170EC4EB00678CA5 /* PeepingPages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BAD89DB170EC4EB00678CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD89EC170EC4EB00678CA5 /* InfoPlist.strings in Resources */,
+				8BAD89F4170EC4EB00678CA5 /* Default.png in Resources */,
+				8BAD89F6170EC4EB00678CA5 /* Default@2x.png in Resources */,
+				8BAD89F8170EC4EB00678CA5 /* Default-568h@2x.png in Resources */,
+				8BAD89FB170EC4EB00678CA5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BAD89D9170EC4EB00678CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAD89EE170EC4EB00678CA5 /* main.m in Sources */,
+				8BAD89F2170EC4EB00678CA5 /* AppDelegate.m in Sources */,
+				8BAD89FE170EC4EB00678CA5 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BAD89EA170EC4EB00678CA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAD89EB170EC4EB00678CA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BAD89F9170EC4EB00678CA5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAD89FA170EC4EB00678CA5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BAD89FF170EC4EB00678CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BAD8A00170EC4EB00678CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BAD8A02170EC4EB00678CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeepingPages/PeepingPages-Prefix.pch";
+				INFOPLIST_FILE = "PeepingPages/PeepingPages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BAD8A03170EC4EB00678CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeepingPages/PeepingPages-Prefix.pch";
+				INFOPLIST_FILE = "PeepingPages/PeepingPages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BAD89D7170EC4EB00678CA5 /* Build configuration list for PBXProject "PeepingPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAD89FF170EC4EB00678CA5 /* Debug */,
+				8BAD8A00170EC4EB00678CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAD8A01170EC4EB00678CA5 /* Build configuration list for PBXNativeTarget "PeepingPages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAD8A02170EC4EB00678CA5 /* Debug */,
+				8BAD8A03170EC4EB00678CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BAD89D4170EC4EB00678CA5 /* Project object */;
+}
